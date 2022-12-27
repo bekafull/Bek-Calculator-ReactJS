@@ -1,0 +1,142 @@
+body{
+    background-color: #171717;
+    transition: 0.3s;
+    margin: 0;
+
+}
+.minHe{
+    min-height: 92vh;
+}
+/* .Calc{
+        position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;display: flex;
+overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+} */
+.Calculator{
+    background-color: #22252d;
+    border-radius: 26px;
+    /* padding: 20px; */
+    max-width: 450px;
+    width: 100%;
+    margin:0 auto;
+    margin-top: 100px;
+    padding-top:25px;transition: 0.3s;
+    margin-bottom: 25px;
+}
+.Operations{
+display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-direction: column;
+    grid-gap: 10px;
+    gap: 10px;
+    background: #363d55;
+    padding: 35px 25px;
+    border-radius: 50px 50px 26px 26px;transition: 0.3s;
+
+    
+
+}
+.dot{
+    flex: 45.5%;
+}
+.dot button{
+    max-width: none;
+}
+.Operations .parent{
+display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+
+    gap: 10px;
+}
+.equals{
+    z-index: 1;
+}
+.equals button{
+    padding:98px 0;
+display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.last__pa{
+    margin-top: -102px;
+}
+
+
+.padd__box{
+    padding: 20px;
+}
+
+
+.noneBtn{
+    visibility: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .Calculator{
+        max-width: 300px;
+    }
+    .equals button{
+        padding:55px 0;        
+    }
+    
+    .last__pa{
+        margin-top: -60px;
+    }
+    .Calculator{
+        margin-top: 60px;
+    }
+    
+}
+
+.qorsay{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      height: 100%;
+      width: 100%;
+      left:0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+    background: linear-gradient(124deg, #ff2424, #e81d1d, #e8b71d, #e3e81d, #1de840,#ff6600, #1ddde8,#99ff99, #dd00f3,#ffff66, #dd00f3);
+    background-size: 1800% 1800%;
+    
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;}
+    
+    @-webkit-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-moz-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-o-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @keyframes rainbow { 
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%
+  }
+}
+.windoww{
+    width:600px;
+   align-items: center;
+    color:#000099;
+}
