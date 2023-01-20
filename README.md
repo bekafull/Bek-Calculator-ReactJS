@@ -6,7 +6,7 @@
 
 # _Calculator_ - A **simple react js calculator** with the basic functions
 
-<h3> This is porject <a href="https://polite-nougat-62dab4.netlify.app/">See Demo Vercion Bek Calculator</a> version </h3>
+<h3> This is porject <a href="https://bek-calculator.netlify.app/">See Demo Vercion Bek Calculator</a> version </h3>
 
 In the project directory, you can run:
 
